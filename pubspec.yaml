@@ -1,0 +1,33 @@
+name: book_recommendation_app
+description: "AI-powered book recommendation and review app."
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  http: ^1.1.0
+  dio: ^5.0.2
+  provider: ^6.0.4
+  cached_network_image: ^3.2.3
+  intl: ^0.18.0
+  form_field_validator: ^1.1.0
+  flutter_svg: ^2.0.8
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.1.8
+  fluttertoast: ^8.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/profile_picture.jpg
